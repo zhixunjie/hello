@@ -1,0 +1,24 @@
+{
+  "name": "zhixunjie/hello",
+  "description": "创建自己的composer包",
+  "keywords": [
+    "hello",
+    "hello world"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JasonZhi",
+      "email": "369610501@qq.com"
+    }
+  ],
+  "require": {
+    "curl/curl": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hello\\": "src/"
+    }
+  }
+}
